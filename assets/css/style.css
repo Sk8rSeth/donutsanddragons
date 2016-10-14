@@ -1,7 +1,7 @@
 @font-face {
-    font-family: DND;
+    font-family: 'DND';
     src: local("beeeer"),
-          url('../fonts/beeeer.ttf');
+          url(../fonts/beeeer.ttf) format("truetype");
     font-weight:400;
 }
 
