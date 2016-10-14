@@ -51,8 +51,8 @@ pre code {
 
 /*custom*/
 
-h1,.h1,h2,.h2,h3,.h3{font-weight: 500; margin-top:20px;margin-bottom:10px}
-h4,.h4,h5,.h5,h6,.h6{font-weight: 500; margin-top:10px;margin-bottom:10px}
+h1,.h1,h2,.h2,h3,.h3{font-weight: 500;}
+h4,.h4,h5,.h5,h6,.h6{font-weight: 500;}
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {font-weight: 500;}
 
 a, a:focus, a:hover {
@@ -83,6 +83,7 @@ h5 {
 
 p {
     font-weight: 300;
+    font-family: Exo;
 }
 
 .row .col {
@@ -106,15 +107,7 @@ nav .brand-logo {
     display:none;
 }
 
-nav {
-    font-weight: 300;
-}
-
 nav .container {
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 30px;
-    padding-right: 30px;
     width: 100%;
 }
 
@@ -123,23 +116,21 @@ nav i {
 }
 
 .side-nav.fixed a{
-    font-size: 1.8rem;
+    font-size: 2rem;
     color: #fff;
-    font-weight: 500;
-    text-align: center;
-    margin: 10px 0px;
-    border-radius: 2px;
 }
 
 #nav-head {
     text-align: left;
     padding: 0;
     font-family: DND;
+    font-size: 11rem;
+    line-height: normal;
 }
 
 nav p {
-    font-size:1.7rem;
-    margin: 30px 0px;
+    font-family: Exo;
+    margin: 0;
 }
 
 .navwrapper {
@@ -147,17 +138,12 @@ nav p {
 }
 
 .navwrapper {
-    bottom: 2rem;
+    bottom: 5rem;
     left: 2rem;
-/*     transform: translate(-50%,-50%);
-    -o-transform: translate(-50%,-50%);
-    -webkit-transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
-    -moz-transform: translate(-50%,-50%); */
 }
 
 .navmenu-social {
-    text-align: center;
+    text-align: left;
 }
 
 nav a.btn-floating {
@@ -187,8 +173,8 @@ nav .button-collapse {
 }
 
 .nav {
-  font-family: DND;
-  font-size: .8rem;
+  font-family: Exo;
+  margin: 1rem 0;
 }
 
 /*cards*/
