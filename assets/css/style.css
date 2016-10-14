@@ -1,6 +1,7 @@
 @font-face {
     font-family: DND;
-    src: local("beeeer.ttf");
+    src: local("beeeer"),
+          url('../fonts/beeeer.ttf');
     font-weight:400;
 }
 
@@ -106,7 +107,6 @@ nav .brand-logo {
 }
 
 nav {
-    line-height: 1.42857143;
     font-weight: 300;
 }
 
@@ -134,9 +134,6 @@ nav i {
 #nav-head {
     text-align: left;
     padding: 0;
-}
-
-#nav-head h1 {
     font-family: DND;
 }
 
@@ -187,6 +184,11 @@ nav a.btn-floating i {
 nav .button-collapse {
     margin-left: 20px;
     z-index: 9999;
+}
+
+.nav {
+  font-family: DND;
+  font-size: .8rem;
 }
 
 /*cards*/
