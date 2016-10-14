@@ -1,3 +1,9 @@
+@font-face {
+    font-family: DND;
+    src: local("beeeer.ttf");
+    font-weight:400;
+}
+
 html { font-size: 62.5%; } 
 body { font-size: 1.4rem; background: #EEE;} 
 
@@ -131,7 +137,7 @@ nav i {
 }
 
 #nav-head h1 {
-    font-weight: 300;
+    font-family: DND;
 }
 
 nav p {
@@ -144,13 +150,13 @@ nav p {
 }
 
 .navwrapper {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    bottom: 2rem;
+    left: 2rem;
+/*     transform: translate(-50%,-50%);
     -o-transform: translate(-50%,-50%);
     -webkit-transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
-    -moz-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%); */
 }
 
 .navmenu-social {
