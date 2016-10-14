@@ -1,21 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        {{!Responsive and meta tags}}
-        <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="theme-color" content="#263238">
-        {{!Title and description}}
-        <title>{{meta_title}}</title>
-        <meta name="description" content="{{meta_description}}" />
-        {{!CSS}}
-        <link type="text/css" rel="stylesheet" href="{{asset "assets/css/materialize.min.css"}}" media="screen,projection">
-        <link type="text/css" rel="stylesheet" href="{{asset "assets/css/style.min.css"}}" media="screen,projection">  
-        {{! Social Meta Tags If you need..}}
-        {{! Ghost header injection }}
-        {{ghost_head}}
-    </head>
+    {{> head}}
     <body class="{{body_class}}">
         {{!Sidenav and Navbar}}
         <nav id="nav-trans" class="transparent">
