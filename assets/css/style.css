@@ -146,9 +146,9 @@ nav p {
 nav a.btn-floating {
     background-color: #263238;
     border-radius: 50%!important;
-    height: 56px;
+/*     height: 56px;
     min-width: 56px;
-    width: 56px;
+    width: 56px; */
     margin: 0!important;
     padding: 0!important;
     overflow: hidden;

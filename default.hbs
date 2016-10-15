@@ -4,11 +4,11 @@
     <body class="{{body_class}}"> 
         {{!Sidenav and Navbar}}
         <nav id="nav-trans" class="transparent">
-            {{!-- <a href="{{@blog.url}}" class="brand-logo center">{{@blog.title}}</a>
+            <a href="{{@blog.url}}" class="brand-logo center">{{@blog.title}}</a>
             <div id="slide-out" class="side-nav fixed blue-grey darken-4">
                 <div class="navwrapper container">  
                     <h1 id="nav-head">{{@blog.title}}</h1>
-                    <p class="blue-grey-text text-lighten-4">{{@blog.description}}</p>
+                    <span>{{@blog.description}}</span>
                     {{navigation}}
                     <div class="navmenu-social">
                         <a href="#" class="btn-floating">
@@ -25,10 +25,10 @@
                     </div>
                 </div>
             </div>
-            {{!-- {{> sidebar}} --}}
-            {{!-- <a href="#" data-activates="slide-out" class="button-collapse">
+            {{> sidebar}}
+            <a href="#" data-activates="slide-out" class="button-collapse">
                 <i class="material-icons">&#xE5D2;</i>
-            </a> --}}
+            </a>
         </nav>
         {{! Content }}
         {{{ body }}}
