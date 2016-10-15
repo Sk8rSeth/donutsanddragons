@@ -269,6 +269,10 @@ nav .button-collapse {
 
 }
 
+#disqus-thread {
+    padding: 0 10rem;
+}
+
 .fb {background-color: #3b5998!important;} .tw {background-color: #00aced!important;} .gp{background-color:#dd4b39!important;}
 
 
