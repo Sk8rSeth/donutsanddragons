@@ -254,6 +254,7 @@ nav .button-collapse {
     padding: 20px 50px;
     display: block;
     overflow: auto;
+    position: relative;
 }
 
 .card .card-action .btn-floating {
@@ -265,7 +266,7 @@ nav .button-collapse {
 }
 
 .btn:hover {
-    
+
 }
 
 .fb {background-color: #3b5998!important;} .tw {background-color: #00aced!important;} .gp{background-color:#dd4b39!important;}
