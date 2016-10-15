@@ -288,9 +288,10 @@ nav .button-collapse {
     font-size: 3rem;
 }
 
-.card-tag {
-    font-family: DND;
-    font-size: 1.5rem;
+.card-tag a {
+    font-family: Exo;
+    font-size: 2rem;
+    letter-spacing: 1px;
 }
 
 .bg-darken::before {
