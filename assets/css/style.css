@@ -187,7 +187,7 @@ nav a.btn-floating {
 }
 
 nav a.btn-floating i {
-    font-size: 2.3rem;
+    font-size: 1.2rem;
 }
 
 .side-nav a.btn-floating:hover {
@@ -259,6 +259,14 @@ nav .button-collapse {
 .card .card-action .btn-floating {
     margin-right: 5px;
 } 
+
+.btn {
+    background-color: #0c7fb9;
+}
+
+.btn:hover {
+    
+}
 
 .fb {background-color: #3b5998!important;} .tw {background-color: #00aced!important;} .gp{background-color:#dd4b39!important;}
 
