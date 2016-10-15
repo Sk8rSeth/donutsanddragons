@@ -133,6 +133,10 @@ nav i {
     line-height: normal;
 }
 
+nav {
+  line-height: 1;
+}
+
 nav p {
     font-family: Exo;
     margin: 0;
