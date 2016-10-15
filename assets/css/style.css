@@ -55,7 +55,11 @@ h1,.h1,h2,.h2,h3,.h3{font-weight: 500;}
 h4,.h4,h5,.h5,h6,.h6{font-weight: 500;}
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {font-weight: 500;}
 
-a, a:focus, a:hover {
+a {
+    color: #263238;
+}
+
+a:focus, a:hover {
     color: #0c7fb9;
 }
 
@@ -236,7 +240,7 @@ nav .button-collapse {
 
 .card .card-content p {
     font-size: 1.5rem;
-    font-weight: 400;
+    font-weight: 500;
     margin: 0 0 10px;
 }
 .card .card-content .card-title {
@@ -264,11 +268,12 @@ nav .button-collapse {
 } 
 
 .btn {
-    background-color: #0c7fb9;
+    background-color: #263238;
+    transition: 1s;
 }
 
 .btn:hover {
-
+    background-color: #0c7fb9;
 }
 
 .fb {background-color: #3b5998!important;} .tw {background-color: #00aced!important;} .gp{background-color:#dd4b39!important;}
@@ -281,6 +286,11 @@ nav .button-collapse {
     color: #fff;
     margin: 0;
     font-size: 3rem;
+}
+
+.card-tag {
+    font-family: DND;
+    font-size: 1.5rem;
 }
 
 .bg-darken::before {
