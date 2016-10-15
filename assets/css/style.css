@@ -288,10 +288,20 @@ nav .button-collapse {
     font-size: 3rem;
 }
 
+sup {
+    font-size: .5rem !important;
+    right:  -.25em;
+    top: -.25em;
+}
+
 .card-tag a {
     font-family: Exo;
-    font-size: 2rem;
+    font-size: 1rem;
     letter-spacing: 1px;
+}
+
+time {
+    float: right;
 }
 
 .bg-darken::before {
