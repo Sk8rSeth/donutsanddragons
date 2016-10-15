@@ -56,7 +56,7 @@ h4,.h4,h5,.h5,h6,.h6{font-weight: 500;}
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {font-weight: 500;}
 
 a, a:focus, a:hover {
-    color: #009688;
+    color: #0d90d1;
 }
 
 blockquote{font-size:2rem;}
@@ -126,12 +126,12 @@ nav i {
 }
 
 .side-nav.fixed a:not(:last-child) {
-    border-right: 1px solid #455b66;
+    border-right: 1px solid #0d90d1;
     padding-right: .5rem;
 }
 
 .side-nav.fixed a:hover {
-    color: #455b66;
+    color: #0d90d1;
 }
 
 #nav-head {
@@ -147,6 +147,7 @@ nav {
   line-height: 1;
   font-family: Exo;
   font-size: 1rem; 
+  overflow: hidden;
 }
 
 nav span {
@@ -157,13 +158,13 @@ nav span {
 
 .nav {
   font-family: Exo;
-  margin: 1rem 0;
+  margin: 4rem 0;
   font-size: 1.5rem;
 }
 
 .navwrapper {
     position: absolute;
-    bottom: 5rem;
+    bottom: 10rem;
     left: 2rem;
 }
 
@@ -195,6 +196,10 @@ nav a.btn-floating i {
 nav .button-collapse {
     margin-left: 20px;
     z-index: 9999;
+}
+
+.mobile-header {
+    display: none;
 }
 
 
@@ -314,7 +319,7 @@ footer a {
 }
 
 footer a:hover {
-    color: #009688;
+    color: #0d90d1;
 }
 
 /*material icons css*/
@@ -343,6 +348,7 @@ footer a:hover {
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
+  color: #0d90d1;
 
   /* Support for all WebKit browsers. */
   -webkit-font-smoothing: antialiased;
@@ -516,5 +522,11 @@ header, main, footer {
     }
     .card .card-image {
     height: 250px;
+    }
+
+    .mobile-header {
+        display: inline;
+        font-family: DND;
+        font-size: 1.rem;
     }
 }
