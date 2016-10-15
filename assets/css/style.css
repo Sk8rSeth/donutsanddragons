@@ -118,6 +118,7 @@ nav i {
 .side-nav.fixed a{
     font-size: 2rem;
     color: #fff;
+    display: inline-block;
 }
 
 #nav-head {
