@@ -30,7 +30,6 @@
                             </div>
                         </div>
                         <div class="card-action">
-                            <h3><i class="material-icons">&#xE80D;</i> Share this: </h3>
                             <a href="https://www.facebook.com/sharer/sharer.php?u={{url absolute="true"}}" class="btn-floating fb intent" data-width="580" height="235">
                                 <i class="fa fa-facebook" aria-hidden="true"></i>
                             </a>
@@ -51,12 +50,12 @@
                         <button class="btn-floating">
                             <i class="material-icons">&#xE5C4;</i>
                         <div class="ripple-container"></div></button>
-                        Newer                    
+                        Newer Post                 
                     </a>
                     {{/next_post}}
                     {{#prev_post}}
                     <a href="{{url}}" class="right">
-                        Older
+                        Older Post
                         <button class="btn-floating">
                             <i class="material-icons">&#xE5C8;</i>
                         </button>
@@ -66,3 +65,17 @@
             </div>
         </main>
         {{/post}}
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            var disqus_shortname = 'example'; // required: replace example with your forum shortname
+            var disqus_identifier = '{{post.id}}';
+         
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a> 
