@@ -119,10 +119,18 @@ nav i {
     font-size: 2rem;
     color: #fff;
     display: inline;
-    font-size: 1rem;
     line-height: 1;
     padding: 0;
     margin: 0;
+    font-size: 1.5rem;
+}
+
+.side-nav.fixed a:not(:last-child) {
+    border-right: 1px solid #455b66;
+}
+
+.side-nav.fixed a:hover {
+    color: #455b66;
 }
 
 #nav-head {
@@ -135,13 +143,19 @@ nav i {
 
 nav {
   line-height: 1;
+  font-family: Exo;
+  font-size: 1rem; 
 }
 
 nav p {
-    font-family: Exo;
     margin: 0;
     line-height: .5;
-    padding: ;
+}
+
+.nav {
+  font-family: Exo;
+  margin: 1rem 0;
+  font-size: 1.5rem;
 }
 
 .navwrapper {
@@ -180,11 +194,6 @@ nav .button-collapse {
     z-index: 9999;
 }
 
-.nav {
-  font-family: Exo;
-  margin: 1rem 0;
-
-}
 
 /*cards*/
 
