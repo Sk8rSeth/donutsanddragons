@@ -274,6 +274,7 @@ nav .button-collapse {
 
 .btn:hover {
     background-color: #0c7fb9;
+    color: #263238;
 }
 
 .fb {background-color: #3b5998!important;} .tw {background-color: #00aced!important;} .gp{background-color:#dd4b39!important;}
