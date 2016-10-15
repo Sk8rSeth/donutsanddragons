@@ -56,7 +56,7 @@ h4,.h4,h5,.h5,h6,.h6{font-weight: 500;}
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {font-weight: 500;}
 
 a, a:focus, a:hover {
-    color: #0d90d1;
+    color: #0c7fb9;
 }
 
 blockquote{font-size:2rem;}
@@ -125,13 +125,13 @@ nav i {
     font-size: 1.5rem;
 }
 
-.side-nav.fixed a:not(:last-child) {
-    border-right: 1px solid #0d90d1;
+.nav a:not(:last-child) {
+    border-right: 1px solid #0c7fb9;
     padding-right: .5rem;
 }
 
 .side-nav.fixed a:hover {
-    color: #0d90d1;
+    color: #0c7fb9;
 }
 
 #nav-head {
@@ -141,6 +141,7 @@ nav i {
     font-size: 11rem;
     line-height: .8;
     margin-bottom: 0;
+    border-right: none !important;
 }
 
 nav {
@@ -319,7 +320,7 @@ footer a {
 }
 
 footer a:hover {
-    color: #0d90d1;
+    color: #0c7fb9;
 }
 
 /*material icons css*/
@@ -348,7 +349,7 @@ footer a:hover {
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
-  color: #0d90d1;
+  color: #0c7fb9;
 
   /* Support for all WebKit browsers. */
   -webkit-font-smoothing: antialiased;
@@ -525,8 +526,10 @@ header, main, footer {
     }
 
     .mobile-header {
-        display: inline;
+        display: inline-block;
         font-family: DND;
-        font-size: 1.rem;
+        font-size: 5rem;
+        padding: 1rem;
+        letter-spacing: 1.5px;
     }
 }
