@@ -511,6 +511,9 @@ header, main, footer {
 
 @media only screen and (max-width : 992px) {
 
+    #disqus_thread {
+        padding: 0 2rem;
+    }
 
     header, main, footer {
         padding-left: 0;
