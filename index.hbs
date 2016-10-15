@@ -42,22 +42,27 @@
                             <a href="https://plus.google.com/share?url={{url absolute="true"}}" class="btn-floating gp intent" data-width="590" height="530">
                                 <i class="fa fa-google-plus" aria-hidden="true"></i>
                             </a> --}}
-                            <div class="fixed-action-btn horizontal click-to-toggle" style="position: absolute; left: 3rem;">
-                                <a class="btn-floating btn-large red">
-                                  <i class="large material-icons">open_in_new</i>
-                                </a>
-                                <ul>
-                                    <li><a href="https://www.facebook.com/sharer/sharer.php?u={{url absolute="true"}}" class="btn-floating fb intent" data-width="580" height="235">
-                                        <i class="fa fa-facebook" aria-hidden="true"></i>
-                                    </a></li>
-                                    <li><a href="https://twitter.com/intent/tweet?text={{encode title}}&amp;url={{url absolute="true"}}" class="btn-floating tw intent" data-width="550" height="235">
-                                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                                    </a></li>
-                                    <li><a href="https://plus.google.com/share?url={{url absolute="true"}}" class="btn-floating gp intent" data-width="590" height="530">
-                                        <i class="fa fa-google-plus" aria-hidden="true"></i>
-                                    </a></li>
-                                </ul>
-                              </div>
+                            <ul class="mfb-component--tl mfb-slidein" data-mfb-toggle="click" data-mfb-state="closed">
+                                <li class="mfb-component__wrap">
+                                    <a data-mfb-label="Share" class="mfb-component__button--main">
+                                        <!-- the main button icon visibile by default -->
+                                        <i class="mfb-component__main-icon--resting fa fa-share-alt"></i>
+                                        <!-- the main button icon visibile when the user is hovering/interacting with the menu -->
+                                        <i class="mfb-component__main-icon--active fa fa-lock"></i>
+                                    </a>
+                                    <ul class="mfb-component__list">
+                                        <li><a href="https://www.facebook.com/sharer/sharer.php?u={{url absolute="true"}}" data-mfb-label="Facebook" class="btn-floating fb intent mfb-component__button--child" data-width="580" height="235">
+                                            <i class="mfb-component__child-icon fa fa-facebook" aria-hidden="true"></i>
+                                        </a></li>
+                                        <li><a href="https://twitter.com/intent/tweet?text={{encode title}}&amp;url={{url absolute="true"}}" data-mfb-label="Twitter" class="btn-floating tw intent mfb-component__button--child" data-width="550" height="235">
+                                            <i class="mfb-component__child-icon fa fa-twitter" aria-hidden="true"></i>
+                                        </a></li>
+                                        <li><a href="https://plus.google.com/share?url={{url absolute="true"}}" data-mfb-label="Google+" class="btn-floating gp intent mfb-component__button--child" data-width="590" height="530">
+                                            <i class="mfb-component__child-icon fa fa-google-plus" aria-hidden="true"></i>
+                                        </a></li>
+                                    </ul>
+                                </li>
+                            </ul>
                             <a class="waves-effect waves-light btn right" href="{{url}}">read more</a>
                         </div>
                     </article>
