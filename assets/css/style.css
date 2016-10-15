@@ -118,7 +118,11 @@ nav i {
 .side-nav.fixed a{
     font-size: 2rem;
     color: #fff;
-    display: inline-block;
+    display: inline;
+    font-size: 1rem;
+    line-height: 1;
+    padding: 0;
+    margin: 0;
 }
 
 #nav-head {
@@ -132,6 +136,8 @@ nav i {
 nav p {
     font-family: Exo;
     margin: 0;
+    line-height: .5;
+    padding: 0;
 }
 
 .navwrapper {
