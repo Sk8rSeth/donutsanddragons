@@ -135,9 +135,6 @@ nav p {
 
 .navwrapper {
     position: absolute;
-}
-
-.navwrapper {
     bottom: 5rem;
     left: 2rem;
 }
@@ -175,6 +172,7 @@ nav .button-collapse {
 .nav {
   font-family: Exo;
   margin: 1rem 0;
+
 }
 
 /*cards*/
