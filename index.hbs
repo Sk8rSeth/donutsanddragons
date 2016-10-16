@@ -13,6 +13,7 @@
                             <div class="card-header">
                                 {{!post meta (time posted, tags)}}
                                 <div class="card-meta blue-grey-text text-lighten-2">
+
                                     <div class="card-tag"> {{!Tag}}
                                         <sup class="fa fa-hashtag" aria-hidden="true"></sup>
                                         {{#foreach tags}}
@@ -20,6 +21,7 @@
                                         {{/foreach}}
                                     </div>
                                     <time class="card-date" datetime="{{date format='YYYY-MM-DD'}}">
+                                       <span>By: {{author}}</span>
                                         <i class="material-icons">&#xE192;</i> 
                                         {{date format='YYYY-MM-DD'}}
                                     </time>
