@@ -11,6 +11,12 @@ body { font-size: 1.4rem; background: #EEE;}
 pre {
   overflow: auto;
 }
+
+strong {
+  font-weight: bold !important;
+  font-size: 1.7rem;
+}
+
 code,
 pre
  {
