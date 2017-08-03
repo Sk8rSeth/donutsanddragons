@@ -1,11 +1,11 @@
 {{!< default }}
         {{#post}}
-        <main> 
+        <main>
             <div class="row">
                 <div class="post col s12 m12 l10 offset-l1">
                     <article class="card">
                         <div class="card-image bg-darken">
-                            <img src="{{image}}">
+                            <img src="{{image_url feature_image}}">
                             <h2 class="card-title animated fadeInDown">
                                 {{title}}
                             </h2>
@@ -16,12 +16,12 @@
                                    <div class="card-tag"> {{!Tag}}
                                         <sup class="fa fa-hashtag" aria-hidden="true"></sup>
                                         {{#foreach tags}}
-                                            <a href="{{url}}" title="{{name}}" class="blue-grey-text text-lighten-2">{{name}}</a>, 
+                                            <a href="{{url}}" title="{{name}}" class="blue-grey-text text-lighten-2">{{name}}</a>,
                                         {{/foreach}}
                                     </div>
                                     <time class="card-date" datetime="{{date format='YYYY-MM-DD'}}">
                                         <span>By: {{author}}</span>
-                                        <i class="material-icons">&#xE192;</i> 
+                                        <i class="material-icons">&#xE192;</i>
                                         {{date format='MMMM Do, YYYY'}}
                                     </time>
                                 </div>
@@ -51,7 +51,7 @@
                         <button class="btn-floating">
                             <i class="material-icons">&#xE5C4;</i>
                         <div class="ripple-container"></div></button>
-                        Newer Post                 
+                        Newer Post
                     </a>
                     {{/next_post}}
                     {{#prev_post}}
@@ -69,7 +69,7 @@
         <script type="text/javascript">
             var disqus_shortname = 'donuts-and-dragons'; // required: replace example with your forum shortname
             var disqus_identifier = '{{post.id}}';
-         
+
             /* * * DON'T EDIT BELOW THIS LINE * * */
             (function() {
                 var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
@@ -78,5 +78,5 @@
             })();
         </script>
         <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a> 
+        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
         </main>

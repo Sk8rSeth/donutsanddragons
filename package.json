@@ -1,5 +1,12 @@
 {
   "name": "Donuts and Dragons",
-  "version": "0.1",
-  "author": "Seth Howell <webdev.seth@gmail.com>"
+  "version": "0.2.0",
+  "author": {
+      "name": "Seth Howell",
+      "email": "levelupyourfandom@gmail.com",
+      "url": "levelupyourfandom.com"
+  },
+  "config": {
+      "posts_per_page": 10
+  },
 }
